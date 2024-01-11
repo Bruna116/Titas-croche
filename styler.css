@@ -1,0 +1,257 @@
+* {
+  font-family: 'Inter', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: #F25696;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #E01FE4;
+  text-decoration: none;
+  transition: 0.3s;
+  
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+.button-whatsapp, .texto {
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.25s ease-out;
+  border: solid transparent;
+}
+
+.button-facebook, .texto {
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.25s ease-out;
+  border: solid transparent;
+}
+
+.button-instagra, .texto { 
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.25s ease-out;
+  border: solid transparent;
+}
+
+.container-2 {
+  display:flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  background-color: darkgreen;
+  width: 50%;
+  height: 160px;
+  display: none;
+}
+
+.button-whatsapp-2, .texto-2 {
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.25s ease-out;
+  border: solid transparent;
+}
+
+.button-facebook-2, .texto-2 {
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.25s ease-out;
+  border: solid transparent;
+}
+
+.button-instagra-2, .texto-2 { 
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.25s ease-out;
+  border: solid transparent;
+}
+
+body {
+  background: #FAEEF4 url("/imagens/Fundo-removebg-preview.png") no-repeat;
+  background-size: cover;
+  height: 280vh; 
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  height: 160px;
+}
+
+.nav-list li {
+  letter-spacing: 3px;
+  margin-left: 32px;
+}
+
+.contatos {
+  display: flex;
+  line-height: 160%;
+  justify-content:space-around;
+}
+
+.selo {
+  width: 105px;
+  height: 105px;
+}
+
+.texto-button {
+  display: flex;
+  justify-content: space-around;
+}
+
+.mobile-menu {
+  display: none;
+  cursor: pointer;
+}
+
+.mobile-menu div {
+  width: 32px;
+  height: 2px;
+  background: #fff;
+  margin: 8px;
+  transition: 0.3s;
+}
+
+.container {
+  background: #EDAED7 url("/imagens/fundos_de_rendas-removebg-preview.png") fixed;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 2000px;
+  background-position: center;
+  display:flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 165px;
+  border: 3px solid #fff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.button {
+  background: transparent;
+  border: solid transparent;
+  transition: all 0.25s ease-out;
+  cursor: pointer;
+  display:flex;
+  justify-content: center;
+  color: #F25696;
+}
+
+.logoContainer {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.agulha {
+  margin-top: 100px;
+  margin-left: 475px;
+  width: 250px;
+  height: 250px;
+}
+
+.font-1 {
+  font-family: 'Dancing Script', cursive;
+}
+
+.font-2 {
+  font-family: 'Damion', cursive;
+}
+
+.p {
+  position: absolute;
+  font-size: 120px;
+  color: #F25696;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #E01FE4;
+  max-width: 220px;
+  top: 390px;
+  margin-left: 610px;
+}
+
+.produtos {
+  position: absolute;
+  font-size: 40px;
+  color: #F25696;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #E01FE4;
+  max-width: 220px;
+  top: 970px;
+  margin-left: 2px;
+}
+
+.frase {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: center;
+  padding: 20px;
+  margin-top: 200px;
+  color: #A10B49;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #F25696;
+  font-size: 20px;
+  font-weight: 100px;
+  max-width: 700px;
+  padding-top: 20px;
+  padding-left: 10px 10px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-left: 300px;
+}
+
+.frase-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: center;
+  padding: 20px;
+  margin-top: 60px;
+  color: #A10B49;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #F25696;
+  font-size: 25px;
+  font-weight: 100px;
+  max-width: 1020px;
+  padding-top: 20px;
+  padding-left: 10px 10px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-left: 100px;
+}
+
+.button-2 {
+  cursor: pointer;
+  padding: 10px;
+  background-color: #EDAED7;
+  color: #E4D7EE;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #E01FE4;
+  border: 1px solid transparent;
+  border-radius: 100px;
+  transition: all 0.25s ease-out;
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 17px;
+  margin-top: 50px;
+  margin-left: 540px;
+  margin-bottom: 45px;
+  width: 250px;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
